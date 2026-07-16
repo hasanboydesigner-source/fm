@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="style.css" />
     <script src="https://cdn.tailwindcss.com"></script>
   </head>
-  <body>
+  <body class="bg-[#FAFAFA]">
     <header
       class="header max-w-[1240px] mx-auto flex justify-between items-center py-4"
     >
@@ -31,31 +31,52 @@
         </button>
       </div>
     </header>
-    <main>
+    <main
+      class="max-w-[1240px] m-auto flex items-center justify-between gap-[20px] py-[50px]"
+    >
       <div class="main-left">
         <div class="texts">
-          <h2>A special credit card made for Developers.</h2>
-          <p>
+          <h2 class="h2 text-[50px] font-bold max-w-[400px] mb-[20px]">
+            A special credit card made for Developers.
+          </h2>
+          <p class="text-[#5C5C5D] max-w-[500px] mb-[20px]">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vehicula
             massa in enim luctus. Rutrum arcu.
           </p>
-          <div class="btns">
-            <button></button>
-            <button></button>
+          <div
+            class="btns gap-[20px] flex items-center border border-[545454] rounded-[10px] p-[5px] mb-[20px] max-w-[400px]"
+          >
+            <input
+              type="text"
+              placeholder="Enter your email"
+              class="px-[20px] py-[10px] border-none outline-none"
+            />
+            <button
+              class="px-[20px] py-[10px] border border-[747474] rounded-[10px] hover:bg-[#000] hover:text-[#fff] transition 0.5s ease-in-out"
+            >
+              Get Free Card
+            </button>
           </div>
-          <div class="info">
-            <div class="one">
-              <h4></h4>
-              <span></span>
+          <div class="info flex items-center gap-[60px]">
+            <div class="one flex items-center gap-[20px]">
+              <h4 class="text-[50px] text-[#000]">2943</h4>
+              <span class="text-[16px] text-[#5C5C5D] max-w-[20px]"
+                >Cards Delivered</span
+              >
             </div>
-            <div class="two">
-              <h4></h4>
-              <span></span>
+            <img class="size-10" src="/image 3 (27).png" alt="" />
+            <div class="two flex items-center gap-[20px]">
+              <h4 class="text-[50px] text-[#000]">$1M+</h4>
+              <span class="text-[16px] text-[#5C5C5D] max-w-[20px]"
+                >Transaction Completed</span
+              >
             </div>
           </div>
         </div>
       </div>
-      <div class="main-right"></div>
+      <div class="main-right">
+        <img src="/image 2 (23).png" alt="" />
+      </div>
     </main>
   </body>
 </html>
